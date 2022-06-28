@@ -1,0 +1,17 @@
+! name: Frontend Development
+! description: Usefull resources for Frontend development
+! public: true
+! author: Stefan Imhoff
+! avatar: #6BF1EE
+
+! Keywords
+*html*$boost=3,inurl
+*css*$boost=3,inurl
+*javascript*$boost=3,inurl
+*js*$boost=3,inurl
+*svg*$boost=3,inurl
+
+! Sites
+$boost=5,site=css-tricks.com
+$boost=5,site=developer.mozilla.org
+$derank,site=w3schools.com
