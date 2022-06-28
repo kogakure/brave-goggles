@@ -1,0 +1,214 @@
+! name: Intellectual Dark Web (IDW)
+! description: Official and unofficial heterodox thinkers of the intellectual dark web.
+! public: true
+! author: Stefan Imhoff
+! avatar: #080E13
+
+! Remove all results not matching another rule
+$discard
+
+! Eric Weinstein
+*eric_weinstein*$boost=3,inurl
+*eric-weinstein*$boost=3,inurl
+$boost=4,site=theportal.group
+$boost=4,site=geometricunity.org
+$boost=4,site=wethescreamers.com
+$boost=4,site=theportal.wiki
+$boost=4,site=projects.theportal.wiki
+/blogs/design-engineering^$boost=3,site=benefitfocus.com
+/c/EricWeinsteinPhD^$boost=3,site=youtube.com
+/c/ThePortalClips^$boost=3,site=youtube.com
+/EricRWeinstein^$boost=3,site=twitter.com
+/ThePortalClips^$boost=3,site=twitter.com
+/us/podcast/the-portal/id1469999563^$boost=2,site=podcasts.apple.com
+/show/3qv8BS1HzrgKpDnXSlYWWL^$boost=2,site=open.spotify.com
+/r/EricWeinstein^$boost=1,site=reddit.com
+/ericrweinstein^$boost=1,site=instagram.com
+
+! Sam Harris
+*sam-harris*$boost=3,inurl
+*sam_harris*$boost=3,inurl
+$boost=4,site=samharris.org
+$boost=4,site=wakingup.com
+$boost=2,site=wakingup.libsyn.com
+/SamHarrisOrg^$boost=3,site=twitter.com
+/c/samharrisorg^$boost=3,site=youtube.com
+/us/podcast/the-best-of-making-sense-with-sam-harris/id1628665244^$boost=2,site=podcasts.apple.com
+/us/podcast/making-sense-with-sam-harris/id733163012^$boost=2,site=podcasts.apple.com
+/r/samharris^$boost=1,site=reddit.com
+/samharrisorg^$boost=1,site=instagram.com
+/wakingupapp^$boost=1,site=instagram.com
+
+! Jordan B. Peterson
+*jordan_peterson*$boost=3,inurl
+*jordan_b_peterson*$boost=3,inurl
+*jordan-peterson*$boost=3,inurl
+*jordan-b-peterson*$boost=3,inurl
+$boost=4,site=jordanbpeterson.com
+/c/JordanPetersonVideos^$boost=3,site=youtube.com
+/@JordanBPeterson:c^$boost=3,site=odysee.com
+/jordanbpeterson^$boost=3,site=twitter.com
+/citations?hl=en&user=wL1F22UAAAAJ^$boost=3,site=scholar.google.com
+/show/1Zw2DKjelPnuEYpydFlhgN^$boost=2,site=open.spotify.com
+/jordan.b.peterson^$boost=1,site=instagram.com
+/r/JordanPeterson^$boost=1,site=reddit.com
+
+! Maajid Nawaz
+*maajid_nawaz*$boost=3,inurl
+*maajid-nawaz*$boost=3,inurl
+$boost=4,site=maajidnawaz.com
+$boost=4,site=quilliaminternational.com
+/@MaajidNawaz:d^$boost=3,site=odysee.com
+
+! Dave Rubin
+*dave_rubin*$boost=3,inurl
+*dave-rubin*$boost=3,inurl
+$boost=4,site=daverubin.com
+/c/RubinReport^$boost=3,site=youtube.com
+/series/8oHZJGqX8aaN-the-rubin-report^$boost=3,site=blazetv.com
+/us/podcast/the-rubin-report/id1052842770^$boost=2,site=podcasts.apple.com
+/rubinreport^$boost=1,site=instagram.com
+
+! Ben Shapiro
+*ben_shapiro*$boost=3,inurl
+*ben-shapiro*$boost=3,inurl
+/c/BenShapiro^$boost=3,site=youtube.com
+/us/podcast/the-ben-shapiro-show/id1047335260^$boost=2,site=podcasts.apple.com
+/officialbenshapiro^$boost=1,site=instagram.com
+
+! Douglas Murray
+*douglas_murray*$boost=3,inurl
+*douglas-murray*$boost=3,inurl
+$boost=4,site=douglasmurray.net
+/DouglasKMurray^$boost=3,site=twitter.com
+/douglaskmurray^$boost=1,site=instagram.com
+
+! Ayaan Hirsi Ali
+*ayaan_hirsi_ali*$boost=3,inurl
+*ayaan-hirsi-ali*$boost=3,inurl
+$boost=4,site=ayaanhirsiali.com
+$boost=4,site=theahafoundation.org
+/Ayaan^$boost=3,site=twitter.com
+/series/ayaan-hirsi-ali-podcast^$boost=2,site=ricochet.com
+/us/podcast/the-ayaan-hirsi-ali-podcast/id1552059697^$boost=2,site=podcasts.apple.com
+
+! Joe Rogan
+*joe_rogan*$boost=3,inurl
+*joe-rogan*$boost=3,inurl
+$boost=4,site=joerogan.com
+/joerogan^$boost=3,site=twitter.com
+/c/joerogan^$boost=3,site=youtube.com
+/show/4rOoJ6Egrf8K2IrywzwOMk^$boost=2,site=open.spotify.com
+
+! Christina Hoff Sommers
+*christina_hoff_sommers*$boost=3,inurl
+*christina-hoff-sommers*$boost=3,inurl
+/CHSommers^$boost=3,site=twitter.com
+
+! Bret Weinstein
+*bret_weinstein*$boost=3,inurl
+*bret-weinstein*$boost=3,inurl
+$boost=4,site=bretweinstein.net
+/BretWeinstein^$boost=3,site=twitter.com
+/c/BretWeinsteinDarkHorse^$boost=3,site=youtube.com
+/channel/UCAWCKUrmvK5F_ynBY_CMlIA^$boost=3,site=youtube.com
+/@BretWeinstein:f^$boost=3,site=odysee.com
+
+! Heather Heying
+*heather_heying*$boost=3,inurl
+*heather-heying*$boost=3,inurl
+$boost=4,site=heatherheying.com
+$boost=4,site=naturalselections.substack.com
+/@heyingh^$boost=4,site=medium.com
+/HeatherEHeying^$boost=3,site=twitter.com
+/citations?hl=en&user=rMivJ48AAAAJ^$boost=3,site=scholar.google.com
+
+! Michael Shermer
+*michael_shermer*$boost=3,inurl
+*michael-shermer*$boost=3,inurl
+$boost=4,site=michaelshermer.com
+$boost=4,site=skeptic.com
+/michaelshermer^$boost=3,site=twitter.com
+/citations?hl=en&user=FzF2IvAAAAAJ^$boost=3,site=scholar.google.com
+
+! Debra Soh
+*debra_soh*$boost=3,inurl
+*debra-soh*$boost=3,inurl
+$boost=4,site=drdebrasoh.com
+/DrDebraSoh^$boost=3,site=twitter.com
+/show/39RKpwDoBqRp5hqXFvpgjB^$boost=3,site=open.spotify.com
+/drdebrawsoh^$boost=1,site=instagram.com
+
+! Jonathan Haidt
+*jonathan_haidt*$boost=3,inurl
+*jonathan-haidt*$boost=3,inurl
+$boost=4,site=jonathanhaidt.com
+$boost=4,site=thecoddling.com
+$boost=4,site=righteousmind.com
+/JonHaidt^$boost=3,site=twitter.com
+/citations?user=VafYYacAAAAJ&hl=en^$boost=3,site=scholar.google.com
+
+! Glenn Loury
+*glenn_loury*$boost=3,inurl
+*glenn-loury*$boost=3,inurl
+$boost=4,site=glennloury.substack.com
+/programs/glenn-show^$boost=4,site=bloggingheads.tv
+/c/GlennLouryShow^$boost=3,site=youtube.com
+/GlennLoury^$boost=3,site=twitter.com
+/us/podcast/the-glenn-show/id505824976^$boost=2,site=podcasts.apple.com
+
+! Coleman Huges
+*coleman_huges*$boost=3,inurl
+*coleman-huges*$boost=3,inurl
+$boost=4,site=colemanhughes.org
+/coldxman^$boost=3,site=twitter.com
+/c/ColemanHughesOfficial^$boost=3,site=youtube.com
+/us/podcast/conversations-with-coleman/id1489326460^$boost=2,site=podcasts.apple.com
+/coleman_hughes^$boost=1,site=instagram.com
+
+! Lex Fridman
+*lex_fridman*$boost=3,inurl
+*lex-fridman*$boost=3,inurl
+$boost=4,site=lexfridman.com
+/lexfridman^$boost=3,site=twitter.com
+/c/lexfridman^$boost=3,site=youtube.com
+/citations?user=wZH_N7cAAAAJ&hl=en^$boost=3,site=scholar.google.com
+/us/podcast/lex-fridman-podcast/id1434243584^$boost=2,site=podcasts.apple.com
+/show/2MAi0BvDc6GTFvKFPXnkCL^$boost=2,site=open.spotify.com
+/lexfridman^$boost=1,site=instagram.com
+
+! Bari Weiss
+*bari_weiss*$boost=3,inurl
+*bari-weiss*$boost=3,inurl
+$boost=4,site=bariweiss.com
+$boost=4,site=commonsense.news
+$boost=4,site=honestlypod.com
+/bariweiss^$boost=3,site=twitter.com
+/us/podcast/honestly-with-bari-weiss/id1570872415^$boost=2,site=podcasts.apple.com
+/episode/58Lkwt29Qv2pD3mdkCa6Ar^$boost=2,site=open.spotify.com
+
+! Candace Owens
+*candace_owens*$boost=3,inurl
+*candace-owens*$boost=3,inurl
+$boost=4,site=candaceowens.com
+/realcandaceo^$boost=3,site=twitter.com
+/c/Candaceshow^$boost=3,site=youtube.com
+/realcandaceowens^$boost=1,site=instagram.com
+
+! James Lindsay
+*james_lindsay*$boost=3,inurl
+*james-lindsay*$boost=3,inurl
+$boost=4,site=newdiscourses.com
+/conceptualjames^$boost=3,site=twitter.com
+/c/newdiscourses^$boost=3,site=youtube.com
+/conceptualjames^$boost=1,site=instagram.com
+
+! Michael O’Fallon
+*michael_ofallon*$boost=3,inurl
+*michael-ofallon*$boost=3,inurl
+$boost=4,site=sovereignnations.com
+/SovMichael^$boost=3,site=twitter.com
+
+! Misc
+$boost=3,site=areomagazine.com
+$boost=3,site=quillette.com
