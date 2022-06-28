@@ -1,0 +1,67 @@
+! name: Stoicism
+! description: Resources on the topic of Stoicism
+! public: true
+! author: Stefan Imhoff
+! avatar: #C4BEB7
+
+! Remove all results not matching another rule
+$discard
+
+! Stoics Keywords in URL
+*marcus_aurelius*$boost=5,inurl
+*marcus-aurelius*$boost=5,inurl
+*marcusaurelius*$boost=5,inurl
+*epictetus*$boost=5,inurl
+*seneca*$boost=5,inurl
+*lucius_annaeus_seneca*$boost=5,inurl
+*lucius-annaeus-seneca*$boost=5,inurl
+*zeno*$boost=3,inurl
+*cleanthes*$boost=2,inurl
+*aristo*$boost=2,inurl
+*diogenes*$boost=2,inurl
+*panaetius*$boost=2,inurl
+*publius_rutilius_rufus*$boost=2,inurl
+*publius-rutilius-rufus*$boost=2,inurl
+*posidonius*$boost=2,inurl
+*diotimus*$boost=2,inurl
+*cicero*$boost=2,inurl
+*cato*$boost=2,inurl
+*porcia*$boost=2,inurl
+*atheneodorus_cananites*$boost=2,inurl
+*atheneodorus-cananites*$boost=2,inurl
+*arius_didymus*$boost=2,inurl
+*arius-didymus*$boost=2,inurl
+*agrippinus*$boost=2,inurl
+*cornutus*$boost=2,inurl
+*gaius_rubellius_plautus*$boost=2,inurl
+*gaius-rubellius-plautus*$boost=2,inurl
+*thrasea*$boost=2,inurl
+*helvidius_priscus*$boost=2,inurl
+*helvidius-priscus*$boost=2,inurl
+*musonius_rufus*$boost=2,inurl
+*musonius-rufus*$boost=2,inurl
+*junius_rusticus*$boost=2,inurl
+*junius-rusticus*$boost=2,inurl
+
+! Stoicism Keywords
+*stoicism*$boost=5,inurl
+*stoics*$boost=5,inurl
+*stoa*$boost=5,inurl
+*amor-fati*$boost=2,inurl
+*amor_fati*$boost=2,inurl
+
+! Sites
+$boost=5,site=dailystoic.com
+/c/DailyStoic^$boost=5,site=youtube.com
+/Antoninus/meditations*.html^$boost=4,site=classics.mit.edu
+/Epictetus/epicench.html^$boost=4,site=classics.mit.edu
+/wiki/Moral_letters_to_Lucilius^$boost=4,site=en.wikisource.org
+/wiki/On_the_shortness_of_life^$boost=4,site=en.wikisource.org
+/wiki/Of_a_Happy_Life^$boost=4,site=en.wikisource.org
+/wiki/Of_Providence^$boost=4,site=en.wikisource.org
+/wiki/On_the_Firmness_of_the_Wise_Man^$boost=4,site=en.wikisource.org
+/wiki/Of_Anger^$boost=4,site=en.wikisource.org
+/wiki/Of_Leisure^$boost=4,site=en.wikisource.org
+/wiki/Of_Peace_of_Mind^$boost=4,site=en.wikisource.org
+/wiki/Of_Clemency^$boost=4,site=en.wikisource.org
+/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments^$boost=4,site=en.wikisource.org
