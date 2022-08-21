@@ -25,20 +25,6 @@ $boost=4,site=projects.theportal.wiki
 /r/EricWeinstein^$boost=1,site=reddit.com
 /ericrweinstein^$boost=1,site=instagram.com
 
-! Sam Harris
-*sam-harris*$boost=3,inurl
-*sam_harris*$boost=3,inurl
-$boost=4,site=samharris.org
-$boost=4,site=wakingup.com
-$boost=2,site=wakingup.libsyn.com
-/SamHarrisOrg^$boost=3,site=twitter.com
-/c/samharrisorg^$boost=3,site=youtube.com
-/us/podcast/the-best-of-making-sense-with-sam-harris/id1628665244^$boost=2,site=podcasts.apple.com
-/us/podcast/making-sense-with-sam-harris/id733163012^$boost=2,site=podcasts.apple.com
-/r/samharris^$boost=1,site=reddit.com
-/samharrisorg^$boost=1,site=instagram.com
-/wakingupapp^$boost=1,site=instagram.com
-
 ! Jordan B. Peterson
 *jordan_peterson*$boost=3,inurl
 *jordan_b_peterson*$boost=3,inurl
